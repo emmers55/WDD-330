@@ -2,29 +2,25 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <meta name="author" content="Bradey Merrill">
+    <meta name="author" content="Bradley Merrill, Emily Peck">
     <meta name="description" content="W2 Group">
     ​
     <title>W2 Group Assignment</title>
-  
     <script>
-      function displayText() {
-        let txtInput = document.getElementById('input1').value;​
-        document.getElementById('div1').innerHTML = txtInput;
-      }
-
-      function addItUp() {
-          let num1 = document.getElementById('num1').value
-          let num2 = document.getElementById('num2').value
-          document.getElementById('div3').innerHTML = num1 + num2
-      }
-    </script>
+        function displayText() {
+          let txtInput = document.getElementById('input1').value
+          document.getElementById('div1').innerHTML = txtInput
+        }
+  
+        function addItUp() {
+            let num1 = Number(document.getElementById("num1").value)
+            let num2 = Number(document.getElementById("num2").value)
+            document.getElementById("div3").innerHTML =  num1 + num2
+        }
+      </script>
   
   </head>
-  ​
-  ​
-  ​
-  
+
   <body>
     <section class="part1">
       <h2>Display Input</h2>
