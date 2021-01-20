@@ -1,0 +1,23 @@
+{
+  "name": "wdd-330",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.18.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emmers55/WDD-330.git"
+  },
+  "author": "Emily Peck",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emmers55/WDD-330/issues"
+  },
+  "homepage": "https://github.com/emmers55/WDD-330#readme"
+}
